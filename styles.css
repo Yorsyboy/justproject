@@ -103,7 +103,47 @@ button {
 }
 
 .h {
-display: flex;
-align-items: center;
-justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 5rem;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 667px;
+}
+
+th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: start;
+    color: #000000;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    color: #000000;
+}
+
+.first h2 {
+    width: 293px;
+    height: 60px;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #000000;
 }
