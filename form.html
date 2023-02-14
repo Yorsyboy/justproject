@@ -34,7 +34,7 @@
 
         <div class="h">
             <p>Gender</p>
-            <div>
+            <div class="radio">
                 <input type="radio" name="gender" id="male" value="male">
                 <label for="male">Male</label>
                 <input type="radio" name="gender" id="male" value="female">
@@ -42,15 +42,18 @@
             </div>
         </div>
 
-        <div>
+        <div class="skill">
 
-            <label for="skill">Techie Skills:</label>
-            <input type="checkbox" name="skill" id="html" value="html">
-            <label for="html">HTML</label>
-            <input type="checkbox" name="skill" id="css" value="css">
-            <label for="css">CSS</label>
-            <input type="checkbox" name="skill" id="javascript" value="javascript">
-            <label for="css">Javascript</label>
+            <p>Techie Skills:</p>
+            <div class="tech">
+
+                <input type="checkbox" name="skill" id="html" value="html">
+                <label for="html">HTML</label>
+                <input type="checkbox" name="skill" id="css" value="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="skill" id="javascript" value="javascript">
+                <label for="javascript">Javascript</label>
+            </div>
         </div>
 
         <div class="order">
@@ -61,8 +64,8 @@
 
         <div class="order">
 
-            <label for="order">Eorder:</label>
-            <input type="eorder" name="order" id="order" placeholder="Enter your Eorder" required>
+            <label for="order">Email:</label>
+            <input type="email" name="order" id="order" placeholder="Enter your Email" required>
         </div>
 
         <div class="order">

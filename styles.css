@@ -67,6 +67,10 @@ a {
     color: #000000;
 }
 
+label, ::placeholder {
+    font-family: 'Halant';
+}
+
 input {
     color: #000000;
     border: 1px solid #828282;
@@ -105,7 +109,15 @@ button {
 .h {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+
+.radio {
+    margin-left: 5.5rem;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
 }
 
 .first {
