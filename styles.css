@@ -76,7 +76,7 @@ input {
     border: 1px solid #828282;
     border-radius: 4px;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 10px 5px 5px;
 
 }
 
@@ -106,19 +106,34 @@ button {
     justify-content: space-between;
 }
 
+.option {
+    display: flex;
+    flex-direction: column;
+}
+
 .h {
     display: flex;
     align-items: center;
+    justify-content: space-between;  
 }
 
 .radio {
-    margin-left: 5.5rem;
+    margin-right: 4rem;
 }
 
 .skill {
     display: flex;
     align-items: center;
 }
+
+#html {
+    margin-left: 1rem;
+}
+
+.tech {
+    font-size: small;
+}
+
 
 .first {
     display: flex;
